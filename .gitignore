@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# crawl outputs are big and site-specific — never commit them
+recon/
+recon-*/
+*-check/
+deep-check/
+bp-check/
+
+# local noise
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.cache/
+tmp/

@@ -1,0 +1,17 @@
+{
+  "name": "frontend-recon",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Headless-browser recon for frontend design, motion, interaction and audio forensics.",
+  "bin": { "frontend-recon": "scripts/recon.mjs" },
+  "scripts": {
+    "recon": "node scripts/recon.mjs",
+    "render": "node scripts/render.mjs",
+    "selftest": "node scripts/selftest.mjs",
+    "deps": "node scripts/lib/browser.mjs --install"
+  },
+  "dependencies": {
+    "playwright-core": "^1.65.1"
+  }
+}
